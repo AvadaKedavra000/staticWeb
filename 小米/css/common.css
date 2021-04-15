@@ -1,0 +1,507 @@
+/* 版心 */
+/* 宽度 */
+.w{
+    width: 1226px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*1.topbar区域开始*/
+.topbar{
+    height: 40px;
+    color:#B0B0B0;
+    background-color:  #333333;
+    margin: 0 auto;
+}
+.nav{  
+    height:40px;
+    font-size:12px;
+    line-height: 40px;   
+}
+ .nav_left ul li{
+    float:left;
+}
+.nav  a{
+    display: block;
+    height: 40px;
+    color:#B0B0B0;
+    padding: 0 3px;
+}
+.nav a:hover {
+    color: #fff;
+}
+.sep{
+    color:#424242;
+    margin:0 3.6px;
+}
+.nav_right ul li{
+    float:left;
+}
+.nav_left{
+    float: left;
+}
+.nav_right{
+    float: right;
+    padding: 0 30px;
+}
+.nav_cart{
+    width: 120px;    
+    float: right;
+    background-color: #424242;
+}
+.nav_cart img{
+    width:23px;
+    float:left;
+    margin-top:13px;
+    margin-left:13px;
+}
+.nav_cart a{
+    float:left;
+}
+/* topbar区域结束 */
+/*2.header区域开始*/
+.header{
+    height: 100px;
+}
+.header_logo{
+    width: 100px;
+    float: left;
+}
+.header_logo img{
+    width: 56px;
+    margin:22px auto;
+}
+.header_nav{
+    float: left;
+    width:700px;
+    height:100px;
+    margin-left: 125px;
+}
+.header_nav ul li {
+    float: left;
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 100px;
+}
+.header_nav ul li a{
+    color: #333333;
+}
+.header_nav ul li a:hover {
+    color: rgb(255, 154, 0);
+}
+.header_search{
+    float:right;
+    width:300px;
+    height:100px;
+}
+.header_search_txt{
+    
+    float:left;
+    color: #959595;
+    font-size: 14px;
+    padding: 0 10px;
+    width: 245px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #e0e0e0;
+}
+.header_search_txt:hover{
+    border: 1px solid #ff6700;
+}
+.header_search_btn{
+    float:left;    
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    background: url(../images/search.png) no-repeat center center; 
+}
+.header_search_btn:hover{
+    background-color: #ff6700;
+    color:#fff;
+}
+/* header区域结束 */
+/* 3.banner区域开始 */
+.banner{
+    height: 670px;
+}
+.banner_bgc {
+    float:left;
+    height: 460px;
+    background: url(../images/banner.jpeg) no-repeat top center;
+    background-size: 100%;
+}
+
+.banner_subnav{
+    float: left;
+    width: 234px;
+    height: 460px;
+    background-color: #9c494b;
+}
+.banner_subnav ul{
+    margin-top: 20px;
+}
+.banner_subnav ul li {
+    width: 234px; 
+    height: 42px;
+    line-height: 42px;
+    padding: 0 0 0 30px;
+}
+.banner_subnav a{
+    color:#fff;
+}
+
+.banner_bgc_url{
+    float:right;
+    height: 460px;
+    width: 992px;
+}
+.banner_bottom{
+    float: left;
+    width: 100%;
+    height: 170px;
+}
+.banner_bottom .first{
+    float: left;
+    width: 234px;
+    margin-top: 14px;
+    margin-bottom: 27px;
+}
+ .banner_bottom .others{
+    float:left;
+    width: 992px;
+}
+
+.banner_bottom .others ul li {
+    float: right;
+    width: 316px;
+    margin-top: 14px;
+    margin-bottom: 27px;
+    margin-left: 14px;
+   
+}
+
+.banner_bottom img{
+    width: 100%;
+   
+} 
+/* banner区域结束 */
+/* 4. main核心区域开始 */
+.main{
+    height: 6035px;
+    background-color: #F5F5F5;
+}
+.main_subhead{
+    height: 57.6px;
+}
+.main_subhead_title{
+    font-size: 22px;
+    line-height: 57.6px;
+    font-weight: 200;
+}
+.main_subcontent{
+    float:left;
+    width: 1226px;
+
+}
+.main_subcontent_first{
+    float: left;
+    width: 234px;
+}
+.main_subcontent_others{
+    float: left;
+    width: 992px;
+}
+.main_subcontent_others ul li {
+    float: left;
+    width: 235px;
+    margin-left: 13px;
+    
+}
+.main_subcontent img{
+    width: 100%;
+}
+
+
+.main_sep{
+    float: left;
+    width: 1226px;
+    height: 120px;
+    margin: 22px auto;
+}
+.main_sep img{
+    width: 100%;
+}
+
+
+
+
+/* mian核心区域中分左右的样式 */
+.main_subcontent_left{
+    float: left;
+    width: 234px;
+    height: 614px;
+}
+.main_subcontent_right{
+    float: left;
+    width: 992px;
+    height: 614px;
+}
+
+.main_subcontent_right ul li{
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background-color: #fff;
+    text-align: center;
+}
+.main_subcontent_right ul li img{
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main_subcontent_right ul li .title{
+    font-size: 14px;
+    font-weight: 400;
+}
+.main_subcontent_right ul li .desc{
+    font-size: 11px;
+    color: #b0b0b0;
+    margin: 0 10px 14px;
+}
+.main_subcontent_right ul li .price{
+    font-size: 14px;
+    color: #FF6700;
+    margin: 0 10px 14px;
+}
+
+
+
+
+
+ .main_subcontent_left img{
+    width: 234px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+ .main_subcontent .main_subcontent_right ul li:last-child{
+    background-color: #f5f5f5;
+}
+ .main_subcontent .main_subcontent_right ul li:last-child .little_item{
+    width: 234px;
+    height: 142px;
+    margin-bottom: 14px;
+    background-color: #fff;
+}
+ .main_subcontent .main_subcontent_right ul li:last-child .little_item h3{
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+ .main_subcontent .main_subcontent_right ul li:last-child .little_item p{
+    text-align: left;
+    margin-left: 30px;
+    /* padding-left: 0; */
+}
+ .main_subcontent .main_subcontent_right ul li:last-child .little_item img{
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+ .main_subcontent .main_subcontent_right ul li:last-child .more{
+    width: 234px;
+    height: 143px;
+}
+
+ .main_subcontent .main_subcontent_right ul li:last-child .more img{
+    width: 234px;
+    height: 143px;
+    margin-top: 0;
+}
+
+/* 手机区域开始 */
+.phone{
+    float: left;
+}
+.phone .main_subcontent_left img{
+    width: 234px;
+    height: 614px;
+}
+/* 手机区域结束 */
+
+/* 家电区域开始 */
+.home_app{
+    float: left;
+}
+/* 家电区域结束 */
+
+/* 智能区域开始 */
+.smart{
+    float: left;
+}
+/* 智能区域结束 */
+/* 智能区域开始 */
+.collocation{
+    float: left;
+}
+/* 智能区域结束 */
+/* 配件区域开始 */
+.fittings{
+    float: left;
+}
+/* 配件区域结束 */
+/* 周边区域开始 */
+.peripheral{
+    float: left;
+}
+/* 周边区域结束 */
+
+/* 视频区域开始 */
+.video{
+    width: 100%;
+    float: left;
+
+}
+.video_list h3{
+    font-size: 14px;
+    margin: 20px 14px 6px;
+    font-weight: 400;
+    text-align: center;
+}
+.video .desc{
+    font-size: 12px;
+    color: #B0B0B0;
+    margin: 0 14px ;
+    text-align: center;
+}
+.video .first{
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-top: 14px;
+    margin-bottom: 27px;
+    background-color: #fff;
+}
+ .video .others{
+    float:left;
+    width: 930px;
+
+}
+
+.video .others ul li {
+    float: right;
+    width: 292px;
+    height: 285px;
+    margin-top: 14px;
+    margin-bottom: 27px;
+    margin-left: 14px;
+    background-color: #fff;
+}
+
+.video img{
+    height: 180px;
+    width: 296px;
+} 
+/* 视频区域结束 */
+/* main核心区域结束 */
+
+/* 5.site_footer区域开始 */
+.site_footer{
+    height: 330px;
+    background-color: #fff;
+}
+.site_footer_service ul{
+    width: 100%;
+    height: 80px;
+    
+}
+.site_footer_service ul li{
+    float: left;
+    line-height: 80px;
+    width: 243.74px;
+    text-align: center;
+    font-size: 16px;
+}
+.site_footer_service ul li a{
+    color: #616161;
+}
+.site_footer_service ul li a:hover{
+    color: #ff6700;
+}
+.site_footer_links dl{
+    float: left;
+    width: 160px;
+    margin: 40px auto;
+}
+.site_footer_links dl dt{
+    font-size: 14px;
+    color: #424242;
+    margin: -1px 0 26px;
+}
+.site_footer_links dl dd a{
+    font-size: 12px;
+    color: #757575;
+}
+.col_links{
+    float: right;
+    width: 230px;
+    text-align: center;
+    margin: 40px auto;
+}
+.col_links p{
+    width: 100%;
+    color: #616161;
+    font-size: 12px;
+}
+.col_links .phone{
+    font-size: 22px;
+    color: #FF6700;
+}
+/* 5.site_footer区域结束 */
+/* 6.site_info区域开始 */
+.site_info{
+    padding: 30px 0;
+    background-color: #fafafa;
+}
+.info_text .sites a{
+    color:#757575;
+    font-size: 12px;
+
+}
+.site_info .header_logo{
+    float: left;
+}
+ .site_info  img{
+    float: left;
+    width: 56px;
+    height: 56px;
+}
+/* .site_info .info_text {
+    padding-left: 50px;
+} */
+.info_text .sep{
+    margin: 0;
+}
+.site_others{
+    padding:60px;
+}
+.site_others p {
+    font-size: 12px ;
+    color:#B0B0B0 ;
+}
+.site_info .slogan{
+    font-size: 20px;
+    margin: 30px auto 0  ;
+    width: 100% ;
+    height: 19px ;
+    color: #c9c9c9 ;
+    text-align: center ;
+}

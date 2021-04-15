@@ -1,0 +1,16 @@
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+        /* css3盒子模型 */
+        box-sizing: border-box;
+}
+body {
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+a{
+    text-decoration: none;
+}
